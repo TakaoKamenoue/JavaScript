@@ -25,7 +25,7 @@ function disp(){
 		str = ary.join(',');
 		console.log(str);
 	} else if (num !== null){
-		console.log('半角英数字を入力して下さい');
+		console.log('半角数字を入力して下さい');
 	} else {
 		console.log('例外エラー');
 	}
