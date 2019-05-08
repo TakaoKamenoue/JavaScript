@@ -1,0 +1,19 @@
+p{
+	text-align: center;
+}
+
+input {
+	background-color: #fff;
+	font-size: 20px;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #67c5ff;
+	border: solid 2px #67c5ff;
+	border-radius: 4px;
+	transition: .4s;
+}
+
+input:hover {
+	background: #67c5ff;
+	color: white;
+}
