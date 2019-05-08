@@ -5,7 +5,7 @@ function disp(){
 
 	if ( num === null || num === ''){
 		console.log('入力が空かキャンセルされました');
-	} else if (num.match(/^[1-9][0-9]+$/)){
+	} else if (num.match(/^[1-9][0-9]+$/) !== null){
 		var str;
 		var ary = new Array();
 		function* generator(from, to){ while(from <= to) yield from++; }
