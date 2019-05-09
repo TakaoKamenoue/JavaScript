@@ -4,7 +4,7 @@ function disp(){
 	let num = prompt('数字を入力してください');
 
 	if ( num === null || num === ''){
-		console.log('入力が空かキャンセルされました');
+		console.warn('入力が空かキャンセルされました');
 	} else if (num.match(/^[1-9][0-9]+$/)){
 		let str;
 		let ary = new Array();
@@ -25,8 +25,8 @@ function disp(){
 		str = ary.join(',');
 		console.log(str);
 	} else if (num !== null){
-		console.log('半角数字を入力して下さい');
+		console.warn('半角数字を入力して下さい');
 	} else {
-		console.log('例外エラー');
+		console.error('例外エラー');
 	}
 };

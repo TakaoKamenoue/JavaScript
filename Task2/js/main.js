@@ -4,7 +4,7 @@ function disp(){
 	const str = prompt('文字列を入力してください');
 
 	if ( str === null || str === ''){
-		console.log('入力が空かキャンセルされました');
+		console.warn('入力が空かキャンセルされました');
 		return;
 	}
 	const ary = str.split(/\s+/);
