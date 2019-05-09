@@ -3,9 +3,11 @@ function disp(){
 
 	let num = prompt('数字を入力してください');
 
-	if ( num === null || num === ''){
+	if (num === null || num === ''){
 		console.warn('入力が空かキャンセルされました');
-	} else if (num.match(/^[1-9][0-9]+$/)){
+	} else if (num === '0'){
+		console.log('0が入力されました');
+	} else if (num.match(/^([1-9]\d*|0)$/)){
 		let str;
 		let ary = new Array();
 		function* generator(from, to){ while(from <= to) yield from++; }
