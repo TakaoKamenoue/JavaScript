@@ -46,7 +46,7 @@ function disp(){
 		let hit = 0;
 		let blow = 0;
 		let arrcnt = 0;
-		console.log('answer:'+answer+',num:'+num); // 結果出力
+		console.log(num); // 
 		for ( let elm of answer){
 			if ( elm === parseInt(num.charAt(arrcnt),10)){
 				hit ++;
@@ -62,7 +62,6 @@ function disp(){
 
 	//メイン処理
 	function main () {
-		console.log('答え：'+answer);
 		num = prompt('4桁の数字は？');
 		console.log('4桁の数字は？');
 		flg = hb(answer,num)
