@@ -27,7 +27,7 @@ function disp(){
 
 	//Hi&Low処理
 	function hilow (num) {
-		if ( parseInt(num,10) > answer ){
+		if ( parseInt(num,10) > answer && (parseInt(num.match(/^([1-9]\d*|0)$/),10) <= 100)){
 			console.log('もっと下');
 			main();
 		} else if ( parseInt(num,10) < answer ) {
