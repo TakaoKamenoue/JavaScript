@@ -1,0 +1,82 @@
+【課題1 FizzBuzz】
+■製作時間
+5時間16分
+
+■調べた内容
+正規表現
+Function*
+GeneratorFunction
+for-of 文
+Array.join()
+window.prompt
+
+【課題2 文字列ハッシュ】
+■製作時間
+3時間2分
+
+■調べた内容
+Object、配列
+indexOf()
+Array.filter()
+
+【課題3 じゃんけん】
+■製作時間
+3時間50分+
+
+■調べた内容
+try...catch 文
+do...while 文
+Array.includes()
+in 演算子
+
+【課題4 再帰】
+■製作時間
+2時間36分
+
+■調べた内容
+再帰的関数
+
+【課題5 アルゴリズム】
+■製作時間
+9時間15分
+
+■調べた内容
+Array.forEach()
+Array.map()
+Array.find()
+typeof演算子
+分割代入
+スプレッド演算子
+Array.concat()
+Function.apply()
+
+【課題6 Hi&Low】
+■製作時間
+2時間26分
+
+■調べた内容
+parseInt()
+
+【課題7 Hit&Blow】
+■製作時間
+6時間30分
+
+■調べた内容
+Array.slice()
+Array.splice()
+charAt()
+
+【課題8 ハッシュ内変換】
+■製作時間
+22時間56分
+
+■調べた内容
+Object コンストラクターのメソッド
+Object.getPrototypeOf()
+constructor プロパティ
+Symbol.iterator
+Object.getOwnPropertyNames()
+Object.getPrototypeOf()
+String.replace()
+Object.keys()
+JSON.stringify()
