@@ -1,6 +1,4 @@
-JavaScript 問題
-====
-
+# Description
 JavaScript 問題の試験として制作
 
 # Author
