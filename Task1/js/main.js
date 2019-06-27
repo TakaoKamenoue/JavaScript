@@ -12,7 +12,7 @@ function disp(){
 		const ary = [];
 		function* generator(from, to){ while(from <= to) yield from++; }
 		let gen = generator(1, num);
-		for(num of gen) {
+		for(let num of gen) {
 			if (num%3 === 0 && num%5 === 0) {
 				str = 'FizzBuzz';
 			} else if (num%3 === 0){
