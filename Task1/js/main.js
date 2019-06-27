@@ -26,9 +26,7 @@ function disp(){
 		}
 		str = ary.join(',');
 		console.log(str);
-	} else if (num !== null){
-		console.warn('半角数字を入力して下さい');
 	} else {
-		console.error('例外エラー');
+		console.error('半角数字を入力して下さい');
 	}
 };
