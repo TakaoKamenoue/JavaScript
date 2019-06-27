@@ -9,7 +9,7 @@ function disp(){
 		console.log('0が入力されました');
 	} else if (num.match(/^([1-9]\d*|0)$/)){
 		let str;
-		let ary = new Array();
+		const ary = [];
 		function* generator(from, to){ while(from <= to) yield from++; }
 		let gen = generator(1, num);
 		for(num of gen) {
