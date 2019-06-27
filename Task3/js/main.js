@@ -9,7 +9,7 @@ function disp(){
 	try {
 		do {
 			console.log('「じゃんけん・・・」');
-			let hum = prompt('「じゃんけん・・・」','0.グー 1.チョキ 2.パー');
+			let hum = prompt('「じゃんけん・・・」\n0.グー 1.チョキ 2.パー')
 
 			if (hum === null) {
 				console.warn('入力が空かキャンセルされました');
