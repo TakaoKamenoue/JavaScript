@@ -18,7 +18,7 @@ function disp(){
 			console.error('0,1,2で入力して下さい')
 		}
 
-		let cpu = Math.floor(Math.random() * rps.length);	
+		let cpu = Math.trunc(Math.random() * rps.length);	
 		console.log('「ぽい！」');
 		console.log('*コンピューター：'+rps[cpu]);
 		console.log('*あなた：'+rps[hum]);
