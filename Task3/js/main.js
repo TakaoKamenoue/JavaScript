@@ -12,7 +12,7 @@ function disp(){
 			let hum = prompt('「じゃんけん・・・」\n0.グー 1.チョキ 2.パー')
 
 			if (hum === null) {
-				console.warn('入力が空かキャンセルされました');
+				console.warn('入力がキャンセルされました');
 				break;
 			} else if (!(hum in rps)) {
 				throw new Error('0,1,2で入力して下さい');
