@@ -19,7 +19,7 @@ function disp(){
 	if ( inNum === null || inNum === ''){
 		console.warn('入力が空かキャンセルされました');
 	} else if (inNum.match(/^([1-9]\d*|0)$/)){
-		loop(inNum);
+		const outNum = loop(inNum);
 		console.log(outNum);
 	} else if (inNum !== null){
 		console.warn('半角数字を入力して下さい');
